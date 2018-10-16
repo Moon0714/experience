@@ -14,4 +14,4 @@ JIT(Just In Time) compilation : 동적 번역(dynamic translation)이라고도 �
 
 ## - 기본 자료형(Primitive Types)
 
-object : 
+object :  모든 자료형의 부모 클래스
