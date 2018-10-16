@@ -2,7 +2,7 @@
 
 ## - .NET 컴파일 과정
 
-![](C:\Program Files\Git\exp\C#\compile.JPG)
+![](compile.JPG)
 
 MSIL(MicroSoft Intermediate Language) : CIL, Metadata, Manifest를 포함하고 있다.
 
