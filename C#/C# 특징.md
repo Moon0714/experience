@@ -2,6 +2,8 @@
 
 ## - .NET 컴파일 과정
 
+![](C:\Program Files\Git\exp\C#\compile.JPG)
+
 MSIL(MicroSoft Intermediate Language) : CIL, Metadata, Manifest를 포함하고 있다.
 
 CIL(Common Intermediate Language) : CLI 설명서에의해 정의된 최저 레벨의 사람이 읽을 수 있는 언어이다. Object oriented assembly language이다. 얘의 bytecode가 native code로 변환된다.
