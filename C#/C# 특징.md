@@ -22,17 +22,17 @@ object :  모든 자료형의 부모 클래스
 
 ## Format Specifier
 
-![](C:\Program Files\Git\experience\C#\formatSpecifiers.JPG)
+![](formatSpecifiers.JPG)
 
 사용 예시
 
-![](C:\Program Files\Git\experience\C#\formatSpecifierEx.JPG)
+![](formatSpecifierEx.JPG)
 
 ## for each
 
 사용 예시
 
-![](C:\Program Files\Git\experience\C#\forEach.jpg)
+![](forEach.jpg)
 
 ## call by reference
 
