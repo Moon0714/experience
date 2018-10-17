@@ -4,7 +4,7 @@
 
 ![](dataType.JPG)
 
-object :  모든 자료형의 부모 클래스
+object :  모든 자료형의 부모 클래스.
 
 ## Format Specifier
 
