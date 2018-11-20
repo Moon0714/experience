@@ -28,7 +28,7 @@ if /i %num%==1 (
 
 if /i %num%==2 (
 
-​	rem disable the adapter you choose
+​	rem disable the adapter you choose 
 
 ​	netsh interface set interface %str% disable
 )

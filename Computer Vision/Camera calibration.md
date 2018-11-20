@@ -1,6 +1,6 @@
 # Camera calibration
 
-카메라 왜곡에 대한 보정 방법. 즉, 3차원 점들이 투영된 위치를 구하거나 역으로 영상좌표에서 3차원 공간 좌표를 복원할 때 내부 요인을 제거해야 정확한 계산이 가능 한데 이 값들을 구하는 과정을 캘리브레이션이라 함.
+카메라 왜곡에 대한 보정 방법. 즉, 3차원 점들이 투영된 위치를 구하거나 역으로 영상좌표에서 3차원 공간 좌표를 복원할 때 내부 요인을 제거해야 정확한 계산이 가능 한데 이 값들을 구하는 과정을 캘리브레이션이라 함. 
 
 ## Calibration 개요
 
@@ -34,7 +34,7 @@ pinhole 카메라 모델에서 3차원 공간을 2차원 이미지 평면에 투
 
 그리고 초점거리가 fx,fy 두개인 이유는 셀간의 간격이 가로,세로 크기가 다를 수 있기 때문이다. 이미지 해상도를 낮출 때는 줄어드는 비율에 따라 초점 거리의 비율도 줄여야 함. 해상도 반 줄이면 초점 거리도 반 줄여야 함.
 
-![](C:\Program Files\Git\exp\Computer Vision\calibration4.JPG)
+![](calibration4.JPG)
 
 초점으로부터 거리가 1인 평면을 normalized image plane이라하고 얘의 좌표를 normalized image coorinate라고 함. 얘는 3차원을 2차원으로 변경하기 위한 가상의 이미지 평면으로 Xc, Yc 를 Zc로 나누는 것은 월드 좌표계를 normalized image coordinate로 변환하는 것임. 이 normalized image coordinate에서 초점 거리(fx,fy)를 각각 곱해주면 이미지 평면에서의 좌표가 나옴. 근데 얘는 좌측 상단 모서리를 나타내는 좌표이기 때문에 좌표를 계산할 떄는 이 (fxXc/Zc+cx, fyYc/Zc+cy) 요런식으로 접근해야 함.
 
