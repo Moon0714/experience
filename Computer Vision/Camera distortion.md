@@ -24,7 +24,7 @@
 
 실제로는 투영 된 점은 렌즈의 비선형성으로 인해 왜곡 되는데 이 왜곡된 normalized 좌표는 (2)로 표시된다.
 
-![](distortion2.jpg)
+![](distortion2.JPG)
 
 (2)의 아래 수식에서 첫번째 항은 radial distortion, 두번째 항은 tangential distortion
 
@@ -34,7 +34,7 @@ ru는 왜곡이 없을 때의 중심(principal point)까지의 거리(반지름)
 
 이 normalized 좌표는 normalized image plane에서의 좌표이며 얘를 영상 픽셀 좌표로 변활 할 때 카메라 내부 파라미터를 반영하여 구한다.(4)
 
-![](distortion3.jpg)
+![](distortion3.JPG)
 
 fx, fy는 초점거리, cx,cy는 렌즈 중심 영상 좌표(principal point), skew_c는 비대칭 계수를 나타냄
 
@@ -48,7 +48,7 @@ fx, fy는 초점거리, cx,cy는 렌즈 중심 영상 좌표(principal point), s
 
 영상 Iu의 한 점을 (xp_u, yp_u)라 하면, 얘를 (3) 함수에 역함수를 적용시켜 normalized 좌표(xn_u, yn_u)로 변환시킴.
 
-![](distortion4.jpg)
+![](distortion4.JPG)
 
 그 다음으로 중심까지의 거리 ru를 식 (2)에 적용시켜 왜곡된 좌표 (xn_d, yn_d)를 구함.
 
